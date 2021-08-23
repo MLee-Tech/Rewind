@@ -1,8 +1,9 @@
 :root{
-    --primary-color: #1d5888;
-    --secondary-color: #ff993b;
+    --primary-color: #545454;
+    --secondary-color: #f40444;
     --dark-color: #292929;
     --white-color: #e7e7e7;
+    --purple: #cb6ce6;
 }
 
 body{
@@ -58,4 +59,12 @@ pre[class*="language-"]{
     white-space: pre-wrap;
     word-break: break-all;
     word-wrap: break-word;
+}
+
+.styleFont{
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.colorPink{
+    color: var(--secondary-color);
 }
